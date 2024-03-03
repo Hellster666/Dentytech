@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.parent {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background-color: whitesmoke;
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.part1 h3 {
+    font-size: 13px;
+    border: 1.3px solid black;
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-weight: 100;
+
+}
+
+.part1 i {
+    font-size: 15px;
+    border: 1.3px solid black;
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-weight: 200;
+
+}
+
+.part2 h1{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.dope{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 3.2%;
+    left: 39.5%;
+    transform: translate(-10%,-10%);
+}
+
+.part3 button{
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.pop{
+    background-color: rgb(255, 88, 27);
+    color: white;
+    border: none !important;
+}
+.op{
+    font-size: 145px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+img{
+    height: 470px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 35px;
+    object-fit: cover;
+}
+.img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+.img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+.img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+.btm{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+}
+.banner{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom:4% ;
+    right: 5%;
+    padding: 20px 20px;
+    display: flex;
+    font-size: 25px;
+}
+.start{
+    position: absolute;
+    bottom:0% ;
+    right: -1%;
+    padding: 20px 20px;
+    font-size: 15px;
+}
+.wall{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
